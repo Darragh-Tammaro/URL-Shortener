@@ -1,6 +1,6 @@
 # URL Shortener
 
-A full-stack URL shortening application built with Node.js, Express, React, and PostgreSQL.
+A full-stack URL shortening application built with Node.js, Express, React, and PostgreSQL. Containerised with Docker.
 
 ## What it does
 
@@ -16,11 +16,14 @@ A full-stack URL shortening application built with Node.js, Express, React, and 
 
 **Database:** PostgreSQL
 
+**DevOps:** Docker
+
 ## Running locally
 
 ### Prerequisites
 - Node.js v18+
 - PostgreSQL
+- Docker (optional)
 
 ### 1. Clone the repo
 ```bash
@@ -67,3 +70,17 @@ npm run dev
 ```
 
 Visit `http://localhost:5173` in your browser.
+
+## Running with Docker
+
+Build the image:
+```bash
+docker build -t url-shortener .
+```
+
+Run the container:
+```bash
+docker run -p 3000:3000 --env-file .env url-shortener
+```
+
+Note: requires a running PostgreSQL instance accessible from the container.
