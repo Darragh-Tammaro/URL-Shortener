@@ -18,7 +18,7 @@ A full-stack URL shortening application built with Node.js, Express, React, and 
 
 **DevOps:** Docker
 
-## Running locally
+## Running locally Instructions
 
 ### Prerequisites
 - Node.js v18+
