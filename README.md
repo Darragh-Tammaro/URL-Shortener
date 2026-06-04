@@ -1,6 +1,6 @@
 # URL Shortener
 
-A full-stack URL shortening application built with Node.js, Express, React, and PostgreSQL. Containerised with Docker.
+A full-stack URL shortening application built with Node.js, Express, React, PostgreSQL and containerised by Docker.
 
 ## What it does
 
