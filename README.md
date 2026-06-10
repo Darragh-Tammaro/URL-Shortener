@@ -83,4 +83,4 @@ Run the container:
 docker run -p 3000:3000 --env-file .env url-shortener
 ```
 
-Note: requires a running PostgreSQL instance accessible from the container.
+NOTE: requires a running PostgreSQL instance accessible from the container. 
